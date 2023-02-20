@@ -15,7 +15,7 @@ module.exports = {
         const embed = new EmbedBuilder()
             .setDescription(`<:icon_dot:973828580272402444>**${title}**\nDue to a bug in 1.19.3 Texture Packs, I created separate Texture Packs for 1.19-1.19.2 and 1.19.3 players. However, they are identical, with the exception that the old texture pack does not work properly in 1.19.3.\n\n<:icon_dot:973828580272402444>**Removed Textures**\n- Custom Player Totems\n- Carved Pumpkin Fake Bedrock\n- Custom Font`)
             .setImage("https://cdn.discordapp.com/attachments/1074008682167287948/1074008760344907806/2023-02-12_00.46.21.png")
-            .setColor("#36393F");
+            .setColor("#2f3136");
 
         try {
             const update = await interaction.channel.send({

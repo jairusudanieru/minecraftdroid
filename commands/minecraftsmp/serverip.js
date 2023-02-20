@@ -13,7 +13,7 @@ module.exports = {
     async execute(interaction) {
         const embed = new EmbedBuilder()
             .setDescription(`<:emoji_dot:1044083172784218132>**Minecraft Java Edition**\nServer Address: pandesalsmp.mcph.co\nCustom Address: play.pandesalsmp.tk\n\n<:emoji_dot:1044083172784218132**Minecraft Bedrock & PE**\nServer Address: play.pandesalsmp.tk\nServer Port: 23504`)
-            .setColor("#36393F");
+            .setColor("#2f3136");
 
         if(interaction.channel.id != "987326255085006848") {
             await interaction.reply({

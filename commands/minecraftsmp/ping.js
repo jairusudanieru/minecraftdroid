@@ -17,7 +17,7 @@ module.exports = {
                 iconURL: `${client.user.displayAvatarURL()}`,
             })
             .setDescription(`<:emoji_dot:1044083172784218132>**Websocket heartbeat:** ${client.ws.ping}ms`)
-            .setColor("#36393F");
+            .setColor("#2f3136");
 
         try {
             await interaction.reply({
