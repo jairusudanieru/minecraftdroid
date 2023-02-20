@@ -16,10 +16,10 @@ module.exports = {
     async execute(interaction) {
         const embed = new EmbedBuilder()
             .setImage(`https://cdn.discordapp.com/attachments/1012234151769931817/1076904447113961593/minecraftform.png`)
-            .setColor(`#2f3136`)
+            .setColor(`#36393F`)
         const embed2 = new EmbedBuilder()
             .setDescription(`<:emoji_dot:1044083172784218132>**PandesalSMP 2nd Season**\nA whitelisted semi-vanilla server. It is a typical Minecraft Survival Multiplayer server that is always online and not a pay to win server. Although our server is currently running Minecraft Java Edition 1.19.2, Bedrock and Pocket Edition players can still join thanks to the Geyser plugin, which makes the server crossplay compatible.\n\n<:emoji_dot:1044083172784218132>**Minecraft Application Form**\nBefore applying to join the server, you must read the Server Rules and complete the form accessible via the button below. You will be accepted based on your responses to the questions. Within a few days, if you have not heard back from us, your application may have been turned down.`)
-            .setColor(`#2f3136`)
+            .setColor(`#36393F`)
 
         const row = new ActionRowBuilder().addComponents(
             new ButtonBuilder()
